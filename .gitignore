@@ -127,7 +127,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-userge/xcache/
+petercord/xcache/
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
 
