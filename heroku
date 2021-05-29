@@ -81,7 +81,7 @@ _startbot () {
     local bot_dir
     bot_dir=$(cd $WORK_DIR && ls) && mv "$WORK_DIR/$bot_dir" "Petercord-Plugins"
     rm -rf $WORK_DIR
-    cd "Petetcord-Plugins"
+    cd "USERGE-X"
     git init > /dev/null 2>&1
     echo -e ">><< --- >><<  Starting [X]  >><< --- >><<\n" | indent
     bash run
