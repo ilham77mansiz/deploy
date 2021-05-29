@@ -35,7 +35,7 @@
 		},
 		"UPSTREAM_REPO": {
 			"description": "fill only if you maintain a fork !, else leave empty",
-			"required": true
+			"required": false
                         "value": "https://github.com/ilham77mansiz/Petercord-Plugins"
 		},
 		"OWNER_ID": {
