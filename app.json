@@ -1,7 +1,7 @@
     {
         "name":"Petercord Deploypack",
         "description":"Userbot Plugins",
-        "logo":"https://telegra.ph/file/b8c4935a277592df59ac9.jpg",
+        "logo":"https://telegra.ph/file/b52e42266a323cbe9f849.jpg",
         "keywords":[
             "Yo"
         ],
@@ -31,11 +31,12 @@
 		},
 		"BOT_TOKEN": {
 			"description": "Get this from https://t.me/botfather and enable Inline Mode. (ADD YOUR BOT IN LOG CHANNEL)",
-			"required": false
+			"required": True
 		},
 		"UPSTREAM_REPO": {
 			"description": "fill only if you maintain a fork !, else leave empty",
-			"required": false
+			"required": True
+                        "https://github.com/ilham77mansiz/Petercord-Plugins"
 		},
 		"OWNER_ID": {
 			"description": "Your user_id(s) e.g 123456789 or mutiple ids",
@@ -44,7 +45,7 @@
 		"PREF_BRANCH": {
 			"description": "Upstream repo preffered branch. (Dont Touch This !)",
 			"required": false,
-			"value": "alpha"
+			"value": "Petercord-Userbot"
 		}
 	},
 	"buildpacks": [
