@@ -36,7 +36,7 @@ _displaylogo () {
 ================================================
 |            VERSION  v0.1.0                       |
 |    By: @diemmmmmmmmmm and ilhammansiz            |
-|           (C) 2021 - Petercord-Plugins           |
+|           (C) 2021 - PETERCORD-AIRX           |
 =================================================
 '
 }
@@ -79,9 +79,9 @@ _setup_repo () {
 
 _startbot () {
     local bot_dir
-    bot_dir=$(cd $WORK_DIR && ls) && mv "$WORK_DIR/$bot_dir" "Petercord-Plugins"
+    bot_dir=$(cd $WORK_DIR && ls) && mv "$WORK_DIR/$bot_dir" "PETERCORD-AIRX"
     rm -rf $WORK_DIR
-    cd "USERGE-X"
+    cd "PETERCORD-AIRX"
     git init > /dev/null 2>&1
     echo -e ">><< --- >><<  Starting [X]  >><< --- >><<\n" | indent
     bash run
