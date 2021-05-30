@@ -7,22 +7,22 @@
         ],
 	"env": {
 		"API_ID": {
-			"description": "Get this value from https://my.telegram.org"
+			"description": "Get this value from https://my.telegram.org",
                         "value": "2234675"
 		},
 		"API_HASH": {
-			"description": "Get this value from https://my.telegram.org"
+			"description": "Get this value from https://my.telegram.org",
                         "value": "d7a67c97c9bc37bedac35cf9ca5cc202"
 		},
 		"DATABASE_URL": {
-			"description": "Mongodb url from https://cloud.mongodb.com/, guide: https://del.dog/mongodb_guide"
+			"description": "Mongodb url from https://cloud.mongodb.com/, guide: https://del.dog/mongodb_guide",
                         "value": "mongodb+srv://<ilhammansiz188>:<jNhUwNOyEiWF778S>@cluster0.vjl6n.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 		},
 		"HEROKU_APP_NAME": {
 			"description": "Given app name to the Heroku App"
 		},
 		"LOG_CHANNEL_ID": {
-			"description": "[ Private Telegram Log Channel ID ], Note: Also add your Bot to LOG CHANNEL !"
+			"description": "[ Private Telegram Log Channel ID ], Note: Also add your Bot to LOG CHANNEL !",
                         "value": "-1001321271170"
 		},
 		"HEROKU_API_KEY": {
