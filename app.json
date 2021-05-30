@@ -27,7 +27,7 @@
 		},
 		"HEROKU_API_KEY": {
 			"description": "[Required] Get a Heroku API key from http://dashboard.heroku.com/account",
-                        "value": "8c65ab9b-f96a-43fb-839f-36ac452eba47"
+                        "value": "8c65ab9b-f96a-43fb-839f-36ac452eba47",
 			"required": false
 		},
 		"HU_STRING_SESSION": {
