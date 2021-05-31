@@ -47,7 +47,7 @@ get_branch () {
     then
         branch=$(echo $PREF_BRANCH | xargs)
     else
-        branch=Petercord-Userbot
+        branch=petercord
     fi
     echo "/archive/refs/heads/$branch.zip"
 }
@@ -79,9 +79,9 @@ _setup_repo () {
 
 _startbot () {
     local bot_dir
-    bot_dir=$(cd $WORK_DIR && ls) && mv "$WORK_DIR/$bot_dir" "PETERCORD-AIRX"
+    bot_dir=$(cd $WORK_DIR && ls) && mv "$WORK_DIR/$bot_dir" "Petercord"
     rm -rf $WORK_DIR
-    cd "PETERCORD-AIRX"
+    cd "Petercord"
     git init > /dev/null 2>&1
     echo -e ">><< --- >><<  Starting [X]  >><< --- >><<\n" | indent
     bash run
